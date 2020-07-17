@@ -1,0 +1,39 @@
+.head{
+	position:relative;
+	top:70px;
+	left:30px;
+	color:white;
+}
+#contact{
+	position:relative;
+	top:100px;
+	height:58vw;
+}
+
+.par{
+
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.ovr{
+   position:relative;
+   top:0;
+   left:0;
+   max-width:100%;
+   overflow:hidden;
+   height:25vw; 
+   background: rgba(0,0,0,0.8);
+}
+
+.btnc{
+   border-radius:20px;
+   position:relative;
+   padding:8px 35px;
+   top:20px;
+   left:580px;
+   background-color:rgba(241,196,15,0.9);
+   border:1px solid rgba(241,196,15,0.9);
+}

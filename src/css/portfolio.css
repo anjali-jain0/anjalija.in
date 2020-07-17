@@ -1,0 +1,175 @@
+#portfolio{
+	position:relative;
+	top:140px;
+	height:106vw;
+  background-color:#f3f3f1;
+}
+
+.whitepatch{
+  background-color:white;
+  height:100px;
+  width:150px;
+  position:relative;
+  top:0;
+  left:1199px;
+}
+
+.phead{
+  padding:27px 20px;
+  font-size:30px;
+}
+
+.para{
+  line-height:22px;
+  padding:20px;
+}
+
+.head1{
+	font-size:60px;
+	color: rgba(241,196,15,0.4);
+}
+
+.head2{
+	text-align:center;
+    font-size: 40px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: -40px;
+}
+
+.box{
+	margin-left:80px;
+}
+
+.project, .pro{
+	width:350px;
+	height:390px;
+	margin:10px 10px;
+	border-radius:8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btnp{
+  position:relative;
+  left:120px;
+  font-size:26px;
+  background-color:transparent;
+  border:none;
+  color:grey;
+  outline: 0 !important;
+}
+
+.selectbtn{
+  position:relative;
+  left:120px;
+  font-size:26px;
+  background-color:rgba(0,0,0,0.1);
+  border:none;
+  color:grey;
+  outline: 0 !important;
+}
+
+
+.btnp:hover{
+  color:black;
+  outline:none;
+}
+
+.lbtn{
+	background-color:#cbd1d2;
+	border:none;
+	border-radius:25px;
+	padding:5px 10px;
+  outline: 0 !important;
+}
+
+.text{
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+
+.con1:hover .overlay {
+	  bottom: 0;
+	  height: 100%;
+	}
+
+.con2:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.con3:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.con4:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con5:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.con6:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con7:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con8:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con9:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con10:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.con11:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.con12:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.con13:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con14:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con15:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con16:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.con17:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.pro{
+	background-color:white;
+}

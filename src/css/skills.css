@@ -1,0 +1,94 @@
+#skills{
+  position:relative;
+  height:45vw;
+}
+
+.myProgress {
+  position:absolute;
+  width: 40%;
+  background-color: #ddd;
+  border-radius:25px;
+}
+
+.myBar {
+  width: 0%;
+  height: 20px;
+  background-color:rgba(241,196,15,0.3);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius:25px;
+  font-weight:bold;
+}
+
+[data-aos="new-animation1"]{
+  width:0%;
+  transition-property: width;
+}
+
+[data-aos="new-animation1"].aos-animate {
+  width:80%;
+}
+
+[data-aos="new-animation2"]{
+  width:0%;
+  transition-property: width;
+}
+
+[data-aos="new-animation2"].aos-animate {
+  width:70%;
+}
+
+[data-aos="new-animation3"]{
+  width:0%;
+  transition-property: width;
+}
+
+[data-aos="new-animation3"].aos-animate {
+  width:90%;
+}
+
+[data-aos="new-animation4"]{
+  width:0%;
+  transition-property: width;
+}
+
+[data-aos="new-animation4"].aos-animate {
+  width:30%;
+}
+
+[data-aos="new-animation5"]{
+  width:0%;
+  transition-property: width;
+}
+
+[data-aos="new-animation5"].aos-animate {
+  width:60%;
+}
+
+[data-aos="new-animation6"]{
+  width:0%;
+  transition-property: width;
+}
+
+[data-aos="new-animation6"].aos-animate {
+  width:80%;
+}
+ 
+
+.parallax{
+   min-height: 40vw; 
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.ovrlay{
+   position:relative;
+   top:0;
+   left:0;
+   max-width:100%;
+   min-height: 40vw; 
+   background: rgba(0,0,0,0.9);
+}

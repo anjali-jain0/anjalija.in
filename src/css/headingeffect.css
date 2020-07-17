@@ -1,0 +1,97 @@
+.p1 {
+  border-right: solid 0px white;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-size: 28px;
+  color: black;
+  margin: 0 auto;
+  width:0;
+  animation: animated-text 4s forwards infinite;
+             
+}
+
+.arrow{
+  cursor:pointer;
+}
+
+.p2 {
+  border-right: solid 0px white;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-size: 28px;
+  color: black;
+  width:0;
+  margin: 0 auto;
+  animation: animated-text2 4s forwards infinite;
+  animation-delay:2s;
+}
+
+
+@keyframes animated-text{
+  0%{width:0;}
+  30% {width:250px;}
+  50% {width:0;}
+  100%{width:0;}
+}
+
+@keyframes animated-text2{
+  0% {width: 0;}
+  30% {width:250px;}
+  50% {width:0;}
+  100%{width:0;}
+}
+
+.mouse{
+  position: absolute;
+  top:527px;
+  left:26%;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+  border:1.5px solid black;
+  border-radius: 50%;
+  z-index:2;
+  }
+
+.mail{
+  text-decoration:underline;
+  color:black;
+  font-size:18px;
+}
+
+.mail:hover{
+  text-decoration:none;
+  color:black;
+}
+
+.shrt{
+  position:absolute;
+  top:530px;
+  left:390px;
+  text-decoration:underline;
+  font-size:18px;
+}
+
+.shrt:hover{
+  text-decoration:none;
+}
+
+.mouse-movement{
+  position: relative;
+  display: block;
+  top: 29%;
+  left: 52%;
+  width: 6px;
+  height: 6px;
+  margin: -4px 0 0 -4px;
+  background: black;
+  border-radius: 50%;
+  animation: scroll-ani 1s linear infinite;
+}
+
+@keyframes scroll-ani {
+  0% {top:29%;display:block;}
+  100% {top:70%;display:none;}
+}

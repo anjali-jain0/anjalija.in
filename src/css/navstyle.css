@@ -1,0 +1,52 @@
+.heading{
+	font-family:Joti One;
+}
+
+.heading:hover {
+    cursor:pointer;
+    color:rgba(241,196,15,0.9);
+}
+
+.firstl{
+	color:rgba(241,196,15,0.9);
+}
+
+.blck{
+	border:1px solid white;
+	width:140px;
+	height:50px;
+	margin-left:70px;
+	margin-top:-10px;
+}
+
+.bordr{
+	animation:borderchng 1s forwards;
+}
+
+@keyframes borderchng{
+    from {border-color:white;}
+    to {border-color:rgba(241,196,15,0.9);}
+}
+
+.active{
+	color:blue;
+}
+
+.nav{
+	background-color:white;
+	position:absolute;
+	height:40px;
+	padding-top:0px;
+	width:1600px;
+	overflow:hidden;
+	z-index:2;
+}
+
+.test{
+    animation:chng 1s forwards;
+}
+
+@keyframes chng{
+    from {background-color:transparent;color:white;}
+    to {background-color:#fafafa;color:black;box-shadow: 0px 3px 4.6px 0.3px rgba(0,0,0,0.25);}
+}

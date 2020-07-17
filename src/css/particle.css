@@ -1,0 +1,17 @@
+.color{
+	background-color:#cbd1d2;
+	width:880px;
+	height:50vw;
+	transform:skewX(20deg);
+    position:relative;
+    top:0;
+    left:-130px;
+}
+.frontimg{
+	position:absolute;
+	top:-5px;
+	left:500px;
+	height:51vw;
+	width:1000px;
+	z-index:-1;
+}
